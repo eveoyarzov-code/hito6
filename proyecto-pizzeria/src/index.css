@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Contenedor principal para fijar el footer abajo */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Grilla de las Pizzas */
+.pizza-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+/* Contenedor centrado para los formularios */
+.form-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #212529;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #0d6efd;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #0b5ed7;
+}
